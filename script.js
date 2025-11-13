@@ -8,14 +8,15 @@ from "https://www.gstatic.com/firebasejs/10.5.2/firebase-database.js";
 
 // 🔧 Replace with your Firebase config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID",
-  databaseURL: "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com"
+  apiKey: "AIzaSyDZ7PjKfWIspbozH9_vBc-hp-xdP4q6P38",
+  authDomain: "r-mail-3edbf.firebaseapp.com",
+  projectId: "r-mail-3edbf",
+  storageBucket: "r-mail-3edbf.firebasestorage.app",
+  messagingSenderId: "215673046326",
+  appId: "1:215673046326:web:333609b0c2a912bc0e9f97",
+  measurementId: "G-4P6RG7KFC5"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -108,3 +109,4 @@ function loadMessages() {
     });
   });
 }
+
